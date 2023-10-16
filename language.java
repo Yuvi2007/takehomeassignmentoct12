@@ -6,14 +6,14 @@ class Main {
 Scanner value = new Scanner(System.in);
 
 
-System.out.println("Choose your language preference: "); //ask the user what their prefered language is
+System.out.println("Choose your language preference: "); //ask user what their prefered language is
 System.out.println("1 = English");
 System.out.println("2 = French");
 System.out.println("3 = German");
 System.out.println("4 = Spanish");
 
 
-int lan = value.nextInt(); //take input from the user
+int lan = value.nextInt(); //take input from user
 
 if (lan == 1) {
     System.out.println("Hello, I hope you are having a great time marking this assignment");   //output different statements for different languages
