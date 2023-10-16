@@ -8,10 +8,10 @@ Scanner value = new Scanner(System.in);
 
 System.out.println("Enter Age:");
 
-int age = value.nextInt();  //take input from the user
+int age = value.nextInt();  //take input from user
 
 if (age <= 13) {
-    System.out.println("You are a child");        //outputs for differents ages
+    System.out.println("You are a child");        //outputs of differents ages
 } else if ((age <= 19) && (age >= 13)) {
     System.out.println("You are a teen");
 } else if ((age <= 65) && (age >= 20)) {
