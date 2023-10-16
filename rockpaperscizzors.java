@@ -8,11 +8,11 @@ Scanner value = new Scanner(System.in);
 
 System.out.println("Player 1 Choose: ");
 
-String p1 = value.nextLine(); //take input from the user for player 1
+String p1 = value.nextLine(); //take input from user for player 1
 
 System.out.println("Player 2 Choose: ");
 
-String p2 = value.nextLine(); //take input from the user for player 2
+String p2 = value.nextLine(); //take input from user for player 2
 
 
 if (p1.equals("Rock") && (p2.equals("Paper"))) {      //outputs for all possible combinations
