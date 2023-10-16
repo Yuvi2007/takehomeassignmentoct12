@@ -5,28 +5,28 @@ class Main {
 
 Scanner value = new Scanner(System.in); //declare scanner
 
-System.out.println("Problem 1: 3x3, Answer Below: "); //the first math problem
+System.out.println("Problem 1: 3x3, Answer Below: "); // first problem
 
-int math1 = value.nextInt(); //take input from the user
+int math1 = value.nextInt(); //take input from user
 
 if (math1 == 9) {
-  System.out.println("You got it right!"); //if the user gets the answer right, it prints this and moves onto the next question
+  System.out.println("You got it right!"); //if the user gets answer right, print this and moves onto the next question
 } else {
-  System.out.println("Incorrect, Score 0/3, Try Again!"); //if the user gets the answer wrong, it prints this
-  System.exit(1); //when the user gets the question wrong, the program gets terminated
+  System.out.println("Incorrect, Score 0/3, Try Again!"); //if the user gets answer wrong, it prints this
+  System.exit(1); //when the user gets the question wrong, the program gets elimenated
 }
 
-System.out.println("Problem 2: 7 x 8, Answer Below"); //2nd math problem
+System.out.println("Problem 2: 7 x 8, Answer Below"); //2nd problem
 int math2 = value.nextInt(); //take input from the user
 
 if (math2 == 56) {
-  System.out.println("Correct! Get ready for the last question"); //prints this if the user gets the question right and moves on to the next question
+  System.out.println("Correct! Get ready for the last question"); //print this if the user gets the question right and moves on to the next question
 } else {
   System.out.println("Incorrect, Score: 1/3, Try Again!"); //print this if the user gets the question wrong
   System.exit(1); //terminates the program when the user gets the question wrong
 }
 
-System.out.println("Final Problem: 90920138098501 * 0"); //final problem
+System.out.println("Final Problem: 90920138098501 * 0"); //last problem
 
 int math3 = value.nextInt(); //takes input from the user
 
