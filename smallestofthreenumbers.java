@@ -7,11 +7,11 @@ Scanner value = new Scanner(System.in);
 
 
 System.out.println("Enter First Number:");
-int num1 = value.nextInt(); //takes input for first number
+int num1 = value.nextInt(); //takes input for 1 number
 System.out.println("Enter Second Number:");
-int num2 = value.nextInt(); //takes input for second number
+int num2 = value.nextInt(); //takes input for 2 number
 System.out.println("Enter Third Number: ");
-int num3 = value.nextInt(); //takes input for third number
+int num3 = value.nextInt(); //takes input for 3 number
 
 if ((num1 < num2) && (num1 < num3)) {
     System.out.println(num1 + " is the smallest number"); //print statements for the smallest numbers
@@ -20,7 +20,7 @@ if ((num1 < num2) && (num1 < num3)) {
 } else if ((num3 < num1) && (num3 < num2)) {
     System.out.println(num3 + " is the smallest number");
 } else {
-    System.out.println("2 of the numbers are the same, try making them different."); //prints this statement for numbers that are the same
+    System.out.println("2 of the numbers are the same, try making them different."); //print this statement for numbers that are the same
 }
 
 
