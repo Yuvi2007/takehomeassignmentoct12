@@ -11,15 +11,15 @@ String country = value.nextLine(); //takes input from the user
 
 if (country.equals("Canada")) {
 
-  System.out.println("What is on Canada's Flag? a) Poutine b) A Beaver c) Maple Leaf d) Maple Syrup | Type a, b, c or d"); //canada quiz if the user is from canada
-    String trivia1 = value.nextLine(); //takes input from the user
+  System.out.println("What is on Canada's Flag? a) Poutine b) A Beaver c) Maple Leaf d) Maple Syrup | Type a, b, c or d"); //canadian quiz if the user is from canada
+    String trivia1 = value.nextLine(); //takes input from user
 
   if (trivia1.equals("c")) {
-    System.out.println("Correct! You know a lot about your country"); //prints this if the user gets the question right
-    System.exit(1); //terminates the program
+    System.out.println("Correct! You know a lot about your country"); //print this if the user gets the question right
+    System.exit(1); //elimanates the program
   } else {
-    System.out.println("Incorrect, you should know more about your country"); ///prints this if the user gets the question wrong
-    System.exit(1); //terminates the program
+    System.out.println("Incorrect, you should know more about your country"); ///print this if the user gets the question wrong
+    System.exit(1); //eliminate the program
   }
 
 } else if (country.equals("Germany")) {
@@ -28,11 +28,11 @@ if (country.equals("Canada")) {
     String trivia2 = value.nextLine(); //takes input from the user
 
   if (trivia2.equals("a")) {
-    System.out.println("Correct! You know a lot about your country"); //prints this if the user gets the question right
-    System.exit(1); //terminates the program
+    System.out.println("Correct! You know a lot about your country"); //print this if the user gets the question right
+    System.exit(1); //eliminate the program
   } else {
-    System.out.println("Incorrect, you should know more about your country"); //prints this if the user gets the question wrong
-    System.exit(1); //terminates the program
+    System.out.println("Incorrect, you should know more about your country"); //print this if the user gets the question wrong
+    System.exit(1); //eliminate the program
   }  
 } else if (country.equals("Italy")) {
    
@@ -40,14 +40,14 @@ if (country.equals("Canada")) {
     String trivia3 = value.nextLine(); //takes input from the user
 
   if (trivia3.equals("b")) {
-    System.out.println("Correct! You know a lot about your country"); //prints this if the user gets the question right
-    System.exit(1); //terminates the program
+    System.out.println("Correct! You know a lot about your country"); //print this if the user gets the question right
+    System.exit(1); //eliminate the program
   } else {
-    System.out.println("Incorrect, you should know more about your country"); //prints this if the user gets the question wrong
-    System.exit(1);//terminates the program
+    System.out.println("Incorrect, you should know more about your country"); //print this if the user gets the question wrong
+    System.exit(1);//eliminate the program
   }
 } else {
-  System.out.println("Sorry, I do not have that region in my database"); //prints this if an invalid country is inputted 
+  System.out.println("Sorry, I do not have that region in my database"); //print this if an invalid country is inputted 
 }
 
 
