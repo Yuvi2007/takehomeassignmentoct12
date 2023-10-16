@@ -7,11 +7,11 @@ Scanner value = new Scanner(System.in);
 
 
 System.out.println("Enter First Number:");  
-int num1 = value.nextInt();  //takes input from first player
+int num1 = value.nextInt();  //takes input from 1 player
 System.out.println("Enter Second Number:");
-int num2 = value.nextInt();  // takes input for second player
+int num2 = value.nextInt();  // takes input for 2 player
 System.out.println("Enter Third Number: ");
-int num3 = value.nextInt(); //takes input for third player
+int num3 = value.nextInt(); //takes input for 3 player
 
 if ((num1 > num2) && (num1 > num3)) {
 		System.out.println(num1 + " is the greatest number");   //printing statements for the greatest numbers
@@ -20,7 +20,7 @@ if ((num1 > num2) && (num1 > num3)) {
 } else if ((num3 > num1) && (num3 > num2)) {
 		System.out.println(num3 + " is the greatest number");
 } else {
-		System.out.println("2 of the numbers are the same, try making them different."); //prints this statement for numbers with the same value
+		System.out.println("2 of the numbers are the same, try making them different."); //print this statement for numbers with the same value
 }
 
 
